@@ -1,3 +1,8 @@
+"""
+This file has only Main program i.e. A UI that prompts for username and password.On succesful login, It choses 
+Admin or user, based on credentials (adm or user) Program Operation varies.
+"""
+
 from Login import Login
 
 log=Login()
@@ -27,20 +32,7 @@ elif user_category=='STU':
     print("STUDENT/USER")
 else:
     print("Login Failed")
-# if userValidation:
-#
-#     passwordValidation = log.validatePassword(password)
-#     print(passwordValidation)
-#     if passwordValidation==0:
-#         print("Password must match below conditions:")
-#         print("Minimum 8 charecters, must have atleast one upper case,one lower case and a digit")
-#
-#
-# else:
-#
-#
-# if userValidation and passwordValidation:
-#     print("Login Successful")
+
 
 
 
