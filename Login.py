@@ -1,3 +1,11 @@
+"""
+This file contains actual class implemetation.
+All validations are performed here.
+cx_Oracale is used for oracle database.
+User and password validation, only admin can add or update user details,
+existing username cannot be used as new username are the main properties of this program.
+"""
+
 import re
 import cx_Oracle
 class Login:
