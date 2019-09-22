@@ -1,13 +1,12 @@
 """
 This file has only Main program i.e. A UI that prompts for username and password.On succesful login, It choses 
 Admin or user, based on credentials (adm or user) Program Operation varies.
+
 """
 
 from Login import Login
 
 log=Login()
-
-
 print("Enter Username and password to login:")
 userName=log.getUserName()
 password=log.getPassword()
