@@ -8,15 +8,14 @@ existing username cannot be used as new username are the main properties of this
 
 import re
 import cx_Oracle
-class Login:
 
+class Login:
     def getUserName(self):
         self.__userName=input("Enter User Name :")
         return self.__userName
     def getPassword(self):
         self.__password = input("Enter Password :")
         return self.__password
-
     def authenticate_user(self,userName,password):
         try:
             con = cx_Oracle.connect("system/mohameme@localhost:1521/orcl")
