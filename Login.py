@@ -82,6 +82,7 @@ class Login:
                 cur.execute("insert into library_users values(:1,:2,:3,:4)",(userCategory,userName,password,fixture_count))
                 con.commit()
                 con.close()
+                
             else:
                 print("Password must match below conditions:")
                 print("Minimum 8 charecters, must have atleast one upper case,one lower case and a digit")
