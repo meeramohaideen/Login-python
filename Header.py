@@ -21,7 +21,9 @@ if user_category=='ADM':
     1.Create User
     2.Update User
     """)
+    
     option=int(input("Enter Option:"))
+    
     if option==1:
         log.createUser()
     elif option==2:
